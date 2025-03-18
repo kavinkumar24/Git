@@ -1,0 +1,7 @@
+# Commands learned
+
+## .gitignore
+This command will help to ignore the files which are not necessary to commit, by using this command we can able to ignore the files like log files, env files etc.
+
+## git status
+This command will help to check the status of the files which are modified, added, deleted etc., 
