@@ -18,5 +18,6 @@
 ## task-2
 - created a sample log file and env file in the local repository
 - add a .gitignore file to untrack the log, env files 
+![alt text](./Assests/image.png)
 - Created a text file with a git commands used
 
