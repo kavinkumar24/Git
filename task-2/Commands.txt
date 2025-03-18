@@ -5,3 +5,4 @@ This command will help to ignore the files which are not necessary to commit, by
 
 ## git status
 This command will help to check the status of the files which are modified, added, deleted etc., 
+

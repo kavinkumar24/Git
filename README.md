@@ -10,7 +10,13 @@
 
 
 # Overview of this Repository
-## task 1
+## task-1
 - index.html - a sample html file uploaded from local repository
 - Commands.txt - contains a description of basic commands
 - style.css -  a basic styling which is applied through a creation of new branch called Styling
+
+## task-2
+- created a sample log file and env file in the local repository
+- add a .gitignore file to untrack the log, env files 
+- Created a text file with a git commands used
+
