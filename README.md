@@ -33,3 +33,32 @@
 - same like that create a same sample txt with alternate content in a feature-branch and commit to staged area
 - Make a conflict during merging that branch into main
 - Manually resolved and checked the difference using diff commands across two branches
+
+## task 5
+- created a sample txt file in the main branch using echo
+- create a antoher branch rebase_feature and add 2 point in the txt file as a seperate commit
+- rebase those into main branch by interactively
+- ![alt text](./Assests/rebase-1.png) 
+- squash
+- ![alt text](./Assests/rebase-2.png)
+- before rebase
+- ![alt text](./Assests/bef_rebase.png)
+- After rebase
+- ![alt text](./Assests/aft_rebase.png)
+
+## task 6
+- created a sample txt and stashed them
+- Work on a brench rebase_feature
+- merge them back to main
+- stash the pop to main branch and commit
+
+## task 7
+- created a login_feature txt and main txt in main branch
+- created a new branch validation_feature and adds two files 
+  (password validation, age validation)
+- ![alt text](./Assests/cherry-pick-branch.png)
+
+- Now i want only password_validation file for main branch so cherry pick the password_validation from validation_feature branch
+![alt text](./Assests/cherry-pick.png)
+
+
