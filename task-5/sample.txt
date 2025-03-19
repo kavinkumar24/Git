@@ -1,0 +1,1 @@
+Rebase is a process of moving or combining a sequence of commits to a new base commit. 
