@@ -69,3 +69,23 @@ adb2e6a Revert "Added a few more text regarding revert and reset"
 a7446dd Initially a sample text file is created
 
 
+Step 13:
+- git push origin main
+- to push the changes to the remote repository.
+
+Step 14:
+- git diff main..feature-branch
+- to check the difference between the main and feature-branch
+
+Output:
+diff --git a/task-4/Readme.txt b/task-4/Readme.txt
+deleted file mode 100644
+index ec10c72..0000000
+--- a/task-4/Readme.txt
++++ /dev/null
+@@ -1,71 +0,0 @@
+-Step 1:
+-- created a sample txt file (using echo) and added some text to it. - main branch
+-- echo "In this tasks, there is a concept of merge conflict resolving." > sample.txt
+-
+-Output:
