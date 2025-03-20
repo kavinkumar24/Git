@@ -1,0 +1,2 @@
+This is a feature file where it contains an Api key and it will captured by pre-commit hooks
+Rapid_API_KEY = ""
