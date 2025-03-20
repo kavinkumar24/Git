@@ -1,0 +1,17 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "- maintains a history of files\r - track the changes uptodate\r - helps to create a Isolated environment for each new features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
+}

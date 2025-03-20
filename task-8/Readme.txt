@@ -82,6 +82,17 @@ Steps:
             echo "No secrets found"
         fi
 
+        # Run ESLint on staged JavaScript files (example of running a linter)
+        echo "Running ESLint on staged JavaScript files..."
+        files=$(git diff --cached --name-only | grep -E '\.js$')
+        if [ -n "$files" ]; then
+            eslint $files
+            if [ $? -ne 0 ]; then  # If eslint fails (non-zero exit status)
+                echo "Error: Linter failed. Fix the issues before committing."
+                exit 1
+            fi
+        fi
+        # eslint - it is a linter tool for javascript (testing syntax or any other bugs)
         # --cached: only staged changes
         # --name-only: only file names
         # -s - it is about some content present in the file (size)
@@ -142,3 +153,17 @@ Output:
 Running pre-commit hook...
 No secrets found
 Error: Commit message must be at least 4 characters long.
+
+- Step 5
+    - Installed eslint for testing js files
+    - npm install eslint --save-dev
+    - created a js file and added some code to it
+    - git add, and commit the code
+    
+Output
+    1:7  error  'firstname' is assigned a value but never used  no-unused-vars
+    2:1  error  'lastname' is not defined                       no-undef
+
+    ✖ 2 problems (2 errors, 0 warnings)
+
+    Error: Linter failed. Fix the issues before committing.
