@@ -61,4 +61,13 @@
 - Now i want only password_validation file for main branch so cherry pick the password_validation from validation_feature branch
 ![alt text](./Assests/cherry-pick.png)
 
+## task 8
+- created a initial_feature txt file and added a few more text with some API key as hard coded
+- routes to git folder > hooks > created a pre-commit hook and commit-msg hook
+- Write a bash script to perform a testing that empty files are not commit, catch the hard code api keys, eslint testing applied to java script files (pre-commit hook)
+- write a bash script to allow that commit message is greater than four characters length (commit-msg)
+- tested with git hooks   and eslint then committed
+![alt text](./Assests/hooks.png)
+- Installed a eslint package in the Git root folder, it may for applied to other hooks also 
+
 
