@@ -1,4 +1,4 @@
-# Project Steps
+# Tasks Steps
 
 1. Created an index.html file in the main branch
    - `git add .`
