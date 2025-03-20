@@ -65,10 +65,11 @@ In this guide, we will focus on using two commit hooks:
     empty_files=$(mktemp)
 
     # Check for empty staged files
-    git diff --cached --name-only | while read file; do
-        if [ "$status" != "D" ] && [ ! -s "$file" ]; then # If file is empty
-            echo "$file" >> "$empty_files"  # Store file name in temporary file
-        fi
+    git diff --cached --name-status | while read status file; do
+    # If the file is not deleted and is empty, check it
+    if [ "$status" != "D" ] && [ ! -s "$file" ]; then  # If file is empty and not deleted
+        echo "$file" >> "$empty_files"  # Store file name in temporary file
+    fi
     done
 
     # Check if any empty files were found
