@@ -4,7 +4,7 @@
 - track the changes uptodate
 - helps to create a Isolated environment for each new features
 
-# Design Pattern Present in Github
+# Design Pattern Present in Git
 
 ## Stack Data Structure
 
