@@ -38,8 +38,10 @@
 
 ---
 
-**Output:**
+### Output:
+``` bash
 From https://github.com/kavinkumar24/Github
 
 branch main -> FETCH_HEAD Updating 1ba00aa..75a39d9 Fast-forward task-9/index.js | 5 +++++ task-9/style.css | 10 ++++++++++
 branch main -> FETCH_HEAD Updating 1ba00aa..75a39d9 Fast-forward task-9/index.js | 5 +++++ task-9/style.css | 10 ++++++++++ task-9/index.js | 5 +++++ task-9/style.css | 10 ++++++++++ 2 files changed, 15 insertions(+) create mode 100644 task-9/index.js create mode 100644 task-9/style.css
+```
