@@ -11,6 +11,13 @@
 - all the commits history are stored in a format of stack
 - we just need to maintain a order while during pop
 
+## Reversed Linked List Structure
+- all the records in the `reflog` is stored in this reversed linked list
+- Last action be in front
+
+## Directed Acyclic graph
+- it does not contains any cycle
+- Topological sorted 
 # Overview of this Repository
 
 ## task-1
